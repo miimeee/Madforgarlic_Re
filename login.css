@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #222;
+}
+h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+input {
+  margin: 0;
+  outline: none;
+}
+button {
+  padding: 0;
+}
+/*  */
+header {
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+header > img {
+  display: block;
+  margin: auto;
+  transform: scale(1.5);
+}
+.container {
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+}
+.login-top {
+  position: relative;
+  height: 60px;
+  padding-top: 30px;
+}
+.login-top div {
+  height: 30px;
+}
+.save-id {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.save-id input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+.save-id label {
+  cursor: pointer;
+  padding: 5px;
+}
+.find-id {
+  position: absolute;
+  right: 0;
+}
+.find-id a {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.find-id a:hover {
+  color: #a2171b;
+  font-weight: 700;
+}
+.input-container {
+  margin: 10px 0;
+}
+.input-container input[type="text"],
+.input-container input[type="password"] {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 5px 0;
+  padding-left: 15px;
+}
+.input-container input[type="text"]::placeholder,
+.input-container input[type="password"]::placeholder {
+  transition: 0.3s;
+}
+.input-container input[type="text"]:focus,
+.input-container input[type="password"]:focus {
+  border: 1px solid #a2171b;
+  box-shadow: 0 1px 3px #a2171b;
+}
+.input-container input[type="text"]:focus::placeholder,
+.input-container input[type="password"]:focus::placeholder {
+  opacity: 0;
+}
+.btn-contanier {
+  margin: 30px 0;
+}
+.btn-contanier button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-contanier button a {
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+}
+.btn-contanier button:hover {
+  background-color: #a2171b;
+}
+.sns-login-container {
+  margin-top: 50px;
+}
+.sns-login-container h3 {
+  text-transform: uppercase;
+  margin: 10px 0;
+  text-align: left;
+}
+.sns-login-inner {
+  margin-top: 20px;
+}
+.sns-login-inner a img {
+  width: 60px;
+  height: 60px;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+.sns-login-inner a:hover img {
+  transform: scale(1.1);
+}
+/* ########### register.html ########## */
+.register-top{
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #222;
+}
+.register-top p{
+  font-size: 14px;
+}
+.register-top p span{
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #a2171b;
+}
+.sns-register-container p{
+  font-size: 14px;
+  text-align: left;
+}
