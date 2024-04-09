@@ -1,103 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic+Coding&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic+Coding&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic+Coding&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic+Coding&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 /* ########## Main ########## */
-main{
+main {
   width: 1240px;
   margin: auto;
 }
-.slide-container{
+.slide-container {
   margin: 30px 0 50px;
 }
+/* Slick slider custom하기 */
 .slick-list {
   height: 674px;
 }
-.slide-img{
+.slide-img {
   width: 100%;
   height: 100%;
 }
-.slick-prev, .slick-next{
+.slick-prev,
+.slick-next {
   z-index: 10;
 }
-.slick-prev{
+.slick-prev {
   left: 0px;
 }
-.slick-prev::before{
+.slick-prev::before {
   content: "<";
   font-size: 50px;
   color: #333;
 }
-.slick-next{
+.slick-next {
   right: 10px;
 }
-.slick-next::before{
+.slick-next::before {
   content: ">";
   font-size: 50px;
   color: #333;
 }
-
-
-
-
-.slick-dots{
+.slick-dots {
   bottom: 20px;
 }
-.slick-dots li button:before{
+.slick-dots li button:before {
   font-size: 60px;
 }
-
 /* Brand & Store */
-.brand-store-container{
-  border: 1px solid #ddd;
+.brand-store-container {
+  border: 1px solid #eee;
   width: 100%;
   height: 670px;
 }
-.brand-box, 
-.store-box{
+.brand-box,
+.store-box {
   display: flex;
   height: 50%;
 }
-.brand-box > div, 
-.store-box > div{
+.brand-box > div,
+.store-box > div {
   width: 50%;
 }
-
-.brand-box > .img-area{
+.brand-box > .img-area {
   background: url(/images/brand01.png) no-repeat;
   background-size: cover;
 }
-.store-box > .img-area{
+.store-box > .img-area {
   background: url(/images/store01.png) center -120px no-repeat;
   background-size: cover;
 }
-.img-area::before{
+.img-area::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   width: 100%;
-  height: 100%;  
+  height: 100%;
 }
 .img-area,
 .text-area,
-.contents-area{
+.contents-area {
   position: relative;
 }
 .img-area > div,
 .text-area > div,
-.contents-icon{
+.contents-icon {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.img-area > div > span{
+/*TODO - */
+.brand-box > .text-area > div{
+  animation: show 2s both;
+}
+.store-box > .text-area > div{
+  animation: show 2s both;
+  animation-delay: 1s;
+}
+.img-area > div > span {
   text-transform: uppercase;
   color: #fff;
   display: block;
   font-size: 23px;
   font-weight: 600;
 }
-.img-area > div > a{
+.img-area > div > a {
   display: block;
   width: 190px;
   height: 40px;
@@ -107,30 +112,38 @@ main{
   margin-top: 10px;
   transition: 0.3s;
 }
-.img-area > div > a:hover{
+.img-area > div > a:hover {
   background-color: #a2171b;
 }
+.text-area > div > p {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px 0;
+  text-align: left;
+}
 /* Slogan */
-.slogan-container{
+.slogan-container {
   width: 100%;
   height: 50px;
   text-align: center;
   margin: 70px 0;
   line-height: 50px;
 }
-.slogan-container > p{
+.slogan-container > p {
   width: 70%;
   margin: auto;
-  font-size: 28px;
+  font-size: 29px;
   font-weight: 600;
   font-family: "Merriweather", serif;
   font-style: italic;
   position: relative;
+  color: #666;
 }
-.slogan-container > p::before{
+.slogan-container > p::before {
   content: ",,";
   font-size: 110px;
-  font-family: 'Overpass', sans-serif;;
+  font-family: "Overpass", sans-serif;
   color: #ddd;
   transform: rotate(180deg);
   position: absolute;
@@ -138,39 +151,39 @@ main{
   top: 10px;
 }
 /* Membership */
-.membership-container{
-  border: 1px solid #ddd;
+.membership-container {
+  border: 1px solid #eee;
   width: 100%;
-  height: 520px
+  height: 520px;
 }
-.membership-box{
+.membership-box {
   display: flex;
   height: 100%;
 }
-.membership-box > div{
+.membership-box > div {
   width: 50%;
 }
-.membership-box > .img-area{
+.membership-box > .img-area {
   background: url(/images/membership01.png) -100px 0 no-repeat;
   background-size: cover;
 }
-.contents-icon{
+.contents-icon {
   width: 300px;
   height: 300px;
   top: 55%;
 }
-.contents-icon > div{
+.contents-icon > div {
   width: 90px;
   height: 90px;
-  float:left;
+  float: left;
   margin: 30px;
 }
 
-.contents-icon > div > img{
+.contents-icon > div > img {
   width: 100%;
   height: 100%;
 }
-.contents-icon > div > p{
+.contents-icon > div > p {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
@@ -178,53 +191,53 @@ main{
   transition: 0.3s;
   margin-top: 5px;
 }
-.contents-icon > div:hover > p{
+.contents-icon > div:hover > p {
   opacity: 1;
 }
-.contents-text{
+.contents-text {
   position: absolute;
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
 }
-.contents-text > p{
+.contents-text > p {
   width: 100%;
   font-size: 40px;
   font-weight: 700;
   font-style: italic;
-  color: #ddd;
+  color: #ccc;
   transition: 0.3s;
 }
-.contents-icon:hover ~ .contents-text > p{
+.contents-icon:hover ~ .contents-text > p {
   color: #a2171b;
 }
 /* Other service */
-.service-container{
+.service-container {
   width: 100%;
   height: 200px;
   margin: 50px 0;
 }
-.service-container > div{
+.service-container > div {
   display: flex;
   height: 100%;
 }
 .reserve-box,
-.urban-box{
+.urban-box {
   width: 50%;
   text-align: center;
   background-color: #333;
   transition: 0.35s;
   border: 5px solid #fff;
 }
-.reserve-box:hover{
+.reserve-box:hover {
   background-color: #a2171b;
 }
-.urban-box:hover{
-  background-color: #3DA935;
+.urban-box:hover {
+  background-color: #3da935;
   text-align: center;
 }
 .reserve-box > a,
-.urban-box > a{
+.urban-box > a {
   display: inline-block;
   width: 90%;
   height: 80%;
@@ -233,7 +246,7 @@ main{
   position: relative;
 }
 .reserve-inner,
-.urban-inner{
+.urban-inner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -241,26 +254,36 @@ main{
   display: flex;
 }
 .reserve-inner > p,
-.urban-inner > p{
- font-size: 20px;
- font-weight: 600;
- color: #fff;
+.urban-inner > p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
 }
-.reserve-inner > p{
+.reserve-inner > p {
   padding-top: 20px;
 }
-.urban-inner > p{
+.urban-inner > p {
   text-transform: uppercase;
   padding-top: 7px;
 }
 .reserve-inner > img,
-.urban-inner > img{
+.urban-inner > img {
   width: 65px;
   height: 65px;
   margin-left: 15px;
   transition: 0.35s;
 }
 .reserve-box:hover .reserve-inner > img,
-.urban-box:hover .urban-inner > img{
+.urban-box:hover .urban-inner > img {
   transform: scale(1.1);
+}
+@keyframes show {
+  0% {
+    top: 110%;
+    opacity: 0;
+  }
+  100% {
+    top: 50%;
+    opacity: 1;
+  }
 }
