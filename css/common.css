@@ -1,3 +1,4 @@
+/* reset.css랑 header, footer의 CSS */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 * {
   box-sizing: border-box;
@@ -12,6 +13,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  font-weight: normal;
 }
 a {
   text-decoration: none;
@@ -33,4 +35,177 @@ input {
 }
 button {
   padding: 0;
+}
+/* ########## Header 영역 ##########*/
+a {
+  text-transform: uppercase;
+}
+header,
+footer {
+  width: 1240px;
+  margin: auto;
+}
+header {
+  height: 100px;
+}
+.logo-area {
+  float: left;
+  height: 100%;
+  margin-right: 20px;
+}
+.logo-area img {
+  margin-top: 35px;
+}
+
+nav.menu-container {
+  float: left;
+  width: 750px;
+  height: 100%;
+  margin-left: 50px;
+}
+ul.first-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.first-menu > li {
+  position: relative;
+  height: 35px;
+}
+ul.first-menu > li > a {
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.25s;
+}
+ul.first-menu > li:hover > a {
+  font-weight: 700;
+  color: #a2171b;
+}
+ul.first-menu > li:nth-of-type(6):hover > a {
+  font-weight: 700;
+  border-bottom: 3px solid #a2171b;
+}
+ul.first-menu > li:nth-of-type(7):hover > a {
+  font-weight: 700;
+  color: #3da935;
+  border-bottom: 3px solid #3da935;
+}
+ul.second-menu {
+  display: none;
+  position: absolute;
+  top: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  background-color: #333;
+}
+ul.first-menu > li:hover ul.second-menu {
+  display: block;
+}
+ul.second-menu > li {
+  display: block;
+  padding: 15px 20px;
+}
+ul.second-menu > li > a {
+  font-size: 14px;
+  color: #fff;
+}
+ul.second-menu > li:hover {
+  background-color: #a2171b;
+}
+.personal-area {
+  float: right;
+  margin-top: 15px;
+}
+.personal-area a {
+  font-size: 13px;
+}
+.personal-area a:hover {
+  color: #a2171b;
+}
+.personal-area a:nth-last-child(2) {
+  margin: 0 10px;
+}
+/* ########## Footer 영역 ########## */
+footer {
+  height: 140px;
+}
+.address {
+  padding: 10px 20px;
+}
+.address p:first-child {
+  font-size: 13px;
+}
+.address p:last-child {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.related {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.left {
+  float: left;
+  padding-left: 20px;
+}
+a.facebook {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -38px -2px no-repeat;
+}
+a.instagram {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -73px -2px no-repeat;
+}
+a.youtube {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -110px -2px no-repeat;
+  margin-left: 8px;
+}
+a.facebook:hover {
+  background-position: -38px -32px;
+}
+a.instagram:hover {
+  background-position: -73px -32px;
+}
+a.youtube:hover {
+  background-position: -110px -32px;
+}
+.official-site a {
+  font-size: 11px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.official-site a:hover {
+  color: #bbb;
+}
+.right {
+  float: right;
+  height: 100%;
+  padding-top: 15px;
+}
+.right a:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 35px;
+  background: url(/images/icon-app.png) no-repeat;
+}
+.right a:last-child {
+  display: inline-block;
+  width: 135px;
+  height: 35px;
+  background: url(/images/icon-app.png) -130px 0 no-repeat;
 }
