@@ -1,0 +1,52 @@
+/* ########## Header 영역 ##########*/
+a{
+  text-transform: uppercase;
+}
+header{
+  border: 1px solid #000;
+  width: 1240px;
+  height: 100px;
+  margin: auto;
+}
+.logo-area{
+  border: 1px solid #000;
+  float: left;
+  height: 100%;
+  margin-right: 20px;
+}
+.logo-area img{
+  margin-top: 35px;
+}
+
+nav.menu-container{
+  float: left;
+  width: 750px;
+  height: 100%;
+  margin-left: 50px;
+}
+ul.first-menu{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.first-menu li{}
+ul.first-menu li a{}
+ul.second-menu{
+  display: none;
+}
+ul.second-menu li{}
+ul.second-menu li a{}
+
+.personal-area{
+  float: right;
+  margin-top: 15px;
+}
+.personal-area a{
+  font-size: 13px;
+}
+.personal-area a:nth-last-child(2){
+  margin: 0 10px;
+}
+/* ########## Footer 영역 ########## */
