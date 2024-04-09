@@ -1,58 +1,61 @@
 /* ########## Header 영역 ##########*/
-a{
+a {
   text-transform: uppercase;
 }
-header{
+header,
+footer {
   width: 1240px;
-  height: 100px;
   margin: auto;
 }
-.logo-area{
+header {
+  border: 1px solid #000;
+  height: 100px;
+}
+.logo-area {
   float: left;
   height: 100%;
   margin-right: 20px;
 }
-.logo-area img{
+.logo-area img {
   margin-top: 35px;
-  transform: scale(1.1);
 }
 
-nav.menu-container{
+nav.menu-container {
   float: left;
   width: 750px;
   height: 100%;
   margin-left: 50px;
 }
-ul.first-menu{
+ul.first-menu {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-ul.first-menu > li{
+ul.first-menu > li {
   position: relative;
   height: 35px;
 }
-ul.first-menu > li > a{
+ul.first-menu > li > a {
   font-weight: 600;
   font-size: 18px;
   transition: 0.25s;
 }
-ul.first-menu > li:hover > a{
+ul.first-menu > li:hover > a {
   font-weight: 700;
-  color: #A2171B;
+  color: #a2171b;
 }
-ul.first-menu > li:nth-of-type(6):hover > a{
+ul.first-menu > li:nth-of-type(6):hover > a {
   font-weight: 700;
-  border-bottom: 3px solid #A2171B;
+  border-bottom: 3px solid #a2171b;
 }
-ul.first-menu > li:nth-of-type(7):hover > a{
+ul.first-menu > li:nth-of-type(7):hover > a {
   font-weight: 700;
-  color: #3DA935;
-  border-bottom: 3px solid #3DA935;
+  color: #3da935;
+  border-bottom: 3px solid #3da935;
 }
-ul.second-menu{
+ul.second-menu {
   display: none;
   position: absolute;
   top: 34px;
@@ -61,31 +64,112 @@ ul.second-menu{
   width: 160px;
   background-color: #333;
 }
-ul.first-menu > li:hover ul.second-menu{
+ul.first-menu > li:hover ul.second-menu {
   display: block;
 }
-ul.second-menu > li{
+ul.second-menu > li {
   display: block;
   padding: 15px 20px;
 }
-ul.second-menu > li > a{
+ul.second-menu > li > a {
   font-size: 14px;
   color: #fff;
 }
-ul.second-menu > li:hover{
-  background-color: #A2171B;
+ul.second-menu > li:hover {
+  background-color: #a2171b;
 }
-.personal-area{
+.personal-area {
   float: right;
   margin-top: 15px;
 }
-.personal-area a{
+.personal-area a {
   font-size: 13px;
 }
-.personal-area a:hover{
-  color: #A2171B;
+.personal-area a:hover {
+  color: #a2171b;
 }
-.personal-area a:nth-last-child(2){
+.personal-area a:nth-last-child(2) {
   margin: 0 10px;
 }
 /* ########## Footer 영역 ########## */
+footer {
+  border: 1px solid #000;
+  height: 140px;
+}
+.address {
+  padding: 10px 20px;
+}
+.address p:first-child {
+  font-size: 13px;
+}
+.address p:last-child {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.related {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.left {
+  float: left;
+  padding-left: 20px;
+}
+a.facebook {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -38px -2px no-repeat;
+}
+a.instagram {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -73px -2px no-repeat;
+}
+a.youtube {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -110px -2px no-repeat;
+  margin-left: 8px;
+}
+a.facebook:hover {
+  background-position: -38px -32px;
+}
+a.instagram:hover {
+  background-position: -73px -32px;
+}
+a.youtube:hover {
+  background-position: -110px -32px;
+}
+.official-site a {
+  font-size: 11px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.official-site a:hover {
+  color: #bbb;
+}
+.right {
+  float: right;
+  height: 100%;
+  padding-top: 15px;
+}
+.right a:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 35px;
+  background: url(/images/icon-app.png) no-repeat;
+}
+.right a:last-child {
+  display: inline-block;
+  width: 135px;
+  height: 35px;
+  background: url(/images/icon-app.png) -130px 0 no-repeat;
+}
