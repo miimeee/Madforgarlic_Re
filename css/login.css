@@ -112,6 +112,7 @@ main {
 }
 .sns-login-container h3 {
   text-transform: uppercase;
+  font-weight: 700;
   margin: 10px 0;
   text-align: left;
 }
@@ -132,6 +133,9 @@ main {
   text-align: left;
   padding-bottom: 10px;
   border-bottom: 1px solid #333;
+}
+.register-top h3{
+  font-weight: 700;
 }
 .register-top p {
   font-size: 14px;
