@@ -8,13 +8,43 @@ main{
 .slide-container{
   margin: 30px 0 50px;
 }
-.slide-container > div{}
-ul.slide-box{}
-ul.slide-box > li{}
-ul.slide-box > li > a{}
-ul.slide-box > li > a > img{
-  width: 100%;
+.slick-list {
+  height: 674px;
 }
+.slide-img{
+  width: 100%;
+  height: 100%;
+}
+.slick-prev, .slick-next{
+  z-index: 10;
+}
+.slick-prev{
+  left: 0px;
+}
+.slick-prev::before{
+  content: "<";
+  font-size: 50px;
+  color: #333;
+}
+.slick-next{
+  right: 10px;
+}
+.slick-next::before{
+  content: ">";
+  font-size: 50px;
+  color: #333;
+}
+
+
+
+
+.slick-dots{
+  bottom: 20px;
+}
+.slick-dots li button:before{
+  font-size: 60px;
+}
+
 /* Brand & Store */
 .brand-store-container{
   border: 1px solid #ddd;
