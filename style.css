@@ -3,19 +3,18 @@ a{
   text-transform: uppercase;
 }
 header{
-  border: 1px solid #000;
   width: 1240px;
   height: 100px;
   margin: auto;
 }
 .logo-area{
-  border: 1px solid #000;
   float: left;
   height: 100%;
   margin-right: 20px;
 }
 .logo-area img{
   margin-top: 35px;
+  transform: scale(1.1);
 }
 
 nav.menu-container{
@@ -31,20 +30,60 @@ ul.first-menu{
   justify-content: space-between;
   align-items: center;
 }
-ul.first-menu li{}
-ul.first-menu li a{}
+ul.first-menu > li{
+  position: relative;
+  height: 35px;
+}
+ul.first-menu > li > a{
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.25s;
+}
+ul.first-menu > li:hover > a{
+  font-weight: 700;
+  color: #A2171B;
+}
+ul.first-menu > li:nth-of-type(6):hover > a{
+  font-weight: 700;
+  border-bottom: 3px solid #A2171B;
+}
+ul.first-menu > li:nth-of-type(7):hover > a{
+  font-weight: 700;
+  color: #3DA935;
+  border-bottom: 3px solid #3DA935;
+}
 ul.second-menu{
   display: none;
+  position: absolute;
+  top: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  background-color: #333;
 }
-ul.second-menu li{}
-ul.second-menu li a{}
-
+ul.first-menu > li:hover ul.second-menu{
+  display: block;
+}
+ul.second-menu > li{
+  display: block;
+  padding: 15px 20px;
+}
+ul.second-menu > li > a{
+  font-size: 14px;
+  color: #fff;
+}
+ul.second-menu > li:hover{
+  background-color: #A2171B;
+}
 .personal-area{
   float: right;
   margin-top: 15px;
 }
 .personal-area a{
   font-size: 13px;
+}
+.personal-area a:hover{
+  color: #A2171B;
 }
 .personal-area a:nth-last-child(2){
   margin: 0 10px;
