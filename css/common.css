@@ -51,6 +51,7 @@ header {
 }
 footer {
   height: 140px;
+  margin-top: 40px;
 }
 .header-wrapper,
 .footer-wrapper {
