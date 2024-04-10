@@ -19,7 +19,7 @@ a {
   text-decoration: none;
   color: #222;
 }
-p{
+p {
   margin: 0;
 }
 ul,
@@ -39,12 +39,26 @@ button {
 /* ########## Header 영역 ##########*/
 header,
 footer {
-  width: 1240px;
-  margin: auto;
+  width: 100%;
+  background-color: #fff;
 }
 header {
   height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 990;
 }
+footer {
+  height: 140px;
+}
+.header-wrapper,
+.footer-wrapper {
+  width: 1240px;
+  height: 100%;
+  margin: auto;
+}
+/*  */
 .logo-area {
   float: left;
   height: 100%;
@@ -53,7 +67,6 @@ header {
 .logo-area img {
   margin-top: 35px;
 }
-
 nav.menu-container {
   float: left;
   width: 750px;
@@ -129,9 +142,7 @@ ul.second-menu > li:hover {
   margin: 0 10px;
 }
 /* ########## Footer 영역 ########## */
-footer {
-  height: 140px;
-}
+
 .address {
   padding: 10px 20px;
 }

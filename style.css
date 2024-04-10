@@ -3,6 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 /* ########## Main ########## */
 main {
+  width: 100%;
+  /* header값만큼줌 */
+  margin-top: 100px;
+}
+.main-wrapper {
   width: 1240px;
   margin: auto;
 }
@@ -88,11 +93,11 @@ main {
   text-align: center;
 }
 /*TODO - */
-.brand-box > .text-area > div{
+.brand-box > .text-area > div {
   animation: show 2s linear both;
   animation-delay: 0.5s;
 }
-.store-box > .text-area > div{
+.store-box > .text-area > div {
   animation: show 2s linear both;
   animation-delay: 1.5s;
 }
