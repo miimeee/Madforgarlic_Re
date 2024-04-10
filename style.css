@@ -89,11 +89,12 @@ main {
 }
 /*TODO - */
 .brand-box > .text-area > div{
-  animation: show 2s both;
+  animation: show 2s linear both;
+  animation-delay: 0.5s;
 }
 .store-box > .text-area > div{
-  animation: show 2s both;
-  animation-delay: 1s;
+  animation: show 2s linear both;
+  animation-delay: 1.5s;
 }
 .img-area > div > span {
   text-transform: uppercase;
