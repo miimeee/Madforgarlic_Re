@@ -1,65 +1,17 @@
 /* ########## membership01 ########## */
-aside, section{
+.membership-contents{
   width: 1240px;
   margin: auto;
 }
-.sub-menu > div{
+.membership-contents > div {
   width: 100%;
 }
-.sub-menu-title{
-  text-align: center;
-  margin-bottom: 60px;
-  padding-top: 20px;
-}
-.sub-menu-title > h1{
-  text-transform: uppercase;
-  font-size: 50px;
-  font-weight: 600;
-}
-.sub-menu-title > p{
-  font-weight: 600;
-  margin-top: 10px;
-}
-.sub-menu-tab{
-  border-top: 1px solid #000;
-  width: 100%;
-  height: 70px;
-  position: relative;
-}
-.sub-menu-tab > ul{
-  overflow: hidden;
-  width: 300px;
-  position: absolute;
-  top: -50%;
-  left: 50%;
-  transform: translate(-50%);
-}
-.sub-menu-tab > ul > li{
-  background-color: #333;
-  float: left;
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  line-height: 70px;
-}
-.sub-menu-tab > ul > li.current{
-  background-color: #A2171B;
-}
-.sub-menu-tab > ul > li > a{
-  color: #fff;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.membership-contents > div{
-  width: 100%;
-}
-.membership-contents-list{
+.membership-contents-list {
   overflow: hidden;
   width: 1125px;
   margin: auto;
 }
-.membership-contents-list > li{
+.membership-contents-list > li {
   float: left;
   margin: 15px 30px;
   width: 500px;
@@ -67,10 +19,17 @@ aside, section{
   background-color: #000000;
   overflow: hidden;
 }
-.membership-contents-list > li:nth-of-type(3) > img{
+.membership-contents-list > li > img {
+  width: 100%;
+  transition: 0.3s;
+}
+.membership-contents-list > li:nth-of-type(3) > img {
   transform: scale(1.3);
   margin-top: 110px;
 }
-.membership-contents-list > li > img{
-  width: 100%;
+.membership-contents-list > li:hover > img {
+  transform: scale(1.05);
+}
+.membership-contents-list > li:nth-of-type(3):hover > img {
+  transform: scale(1.4);
 }
