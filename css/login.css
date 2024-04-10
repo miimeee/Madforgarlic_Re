@@ -21,14 +21,13 @@ main {
   margin: auto;
   text-align: center;
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .login-top {
   position: relative;
-  height: 60px;
-  padding-top: 10px;
+  height: 45px;
   border-bottom: 1px solid #333;
 }
 .login-top div {
@@ -129,6 +128,9 @@ main {
   transform: scale(1.1);
 }
 /* ########### register.html ########## */
+.register-container{
+  top: 70%;
+}
 .register-top {
   text-align: left;
   padding-bottom: 10px;
