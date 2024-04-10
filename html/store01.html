@@ -11,11 +11,17 @@
     <script src="../js/slick.min.js"></script>
     <link rel="stylesheet" href="../css/slick/slick.css" />
     <link rel="stylesheet" href="../css/slick/slick-theme.css" />
+    <!-- kakao map 지도 퍼가기 설치 스크립트 -->
+    <script
+      charset="UTF-8"
+      class="daum_roughmap_loader_script"
+      src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+    ></script>
     <!-- common.css -->
-    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="../css/common.css" />
-    <link rel="stylesheet" href="../css/membership.css" />
-    <title>Membership-가입</title>
+    <link rel="stylesheet" href="../css/store.css" />
+    <title>Store-매장 찾기</title>
   </head>
   <body>
     <!-- Header -->
@@ -127,37 +133,136 @@
     <main>
       <aside class="sub-menu">
         <div class="sub-menu-title">
-          <h1>membership</h1>
-          <p>모든 브랜드에서 적립하고 누리는 혜택! 올인원 멤버십 M CLUE</p>
+          <h1>store</h1>
+          <p>전국에 있는 다양한 매드포갈릭 매장을 만나보세요</p>
         </div>
         <div class="sub-menu-tab">
           <ul>
-            <li >
-              <a href="/html/membership01.html">멤버십 소개</a>
-            </li>
             <li class="now">
-              <a href="/html/membership02.html">멤버십 가입</a>
+              <a href="/html/store01.html">매장 찾기</a>
+            </li>
+            <li>
+              <a href="#">컨셉</a>
+            </li>
+            <li>
+              <a href="#">채용</a>
             </li>
           </ul>
         </div>
       </aside>
 
-      <section class="membership-contents">
-        <div>
-          <ul class="membership-contents-list">
-            <li>
-              <img src="/images/membership-birthday.png">
-            </li>
-            <li>
-              <img src="/images/membership-mclub.png">
-            </li>
-            <li>
-              <img src="/images/membership-gift.png">
-            </li>
-            <li>
-              <img src="/images/membership-wine.png">
-            </li>
-          </ul>
+      <section class="store-location-container">
+        <div class="store-location-box">
+          <div class="store-location-wrapper ">
+            <div class="store-name active">
+              <h3>광화문D 타워점</h3>
+            </div>
+            <div class="store-map">
+              <!-- 카카오맵 - 지도퍼가기 -->
+              <!-- 지도 노드 -->
+              <div
+                id="daumRoughmapContainer1712751203833"
+                class="root_daum_roughmap root_daum_roughmap_landing"
+              ></div>
+              <!-- 실행 스크립트 -->
+              <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                  timestamp: "1712751203833",
+                  key: "2iv5m",
+                  mapWidth: "900",
+                  mapHeight: "360",
+                }).render();
+              </script>
+            </div>
+          </div>
+          <div class="store-location-wrapper">
+            <div class="store-name">
+              <h3>롯데시네마 월드타워점</h3>
+            </div>
+            <div class="store-map">
+              <!-- 카카오맵 - 지도퍼가기 -->
+              <!-- 지도 노드 -->
+              <div
+                id="daumRoughmapContainer1712752332041"
+                class="root_daum_roughmap root_daum_roughmap_landing"
+              ></div>
+              <!-- 실행 스크립트 -->
+              <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                  timestamp: "1712752332041",
+                  key: "2iv5p",
+                  mapWidth: "900",
+                  mapHeight: "360",
+                }).render();
+              </script>
+            </div>
+          </div>
+          <div class="store-location-wrapper">
+            <div class="store-name">
+              <h3>강남 삼성타운점</h3>
+            </div>
+            <div class="store-map">
+              <!-- 카카오맵 - 지도퍼가기 -->
+              <!-- 지도 노드 -->
+              <div
+                id="daumRoughmapContainer1712751873808"
+                class="root_daum_roughmap root_daum_roughmap_landing"
+              ></div>
+              <!-- 실행 스크립트 -->
+              <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                  timestamp: "1712751873808",
+                  key: "2iv5o",
+                  mapWidth: "900",
+                  mapHeight: "360",
+                }).render();
+              </script>
+            </div>
+          </div>
+          <div class="store-location-wrapper">
+            <div class="store-name">
+              <h3>사당점</h3>
+            </div>
+            <div class="store-map">
+              <!-- 카카오맵 - 지도퍼가기 -->
+              <!-- 지도 노드 -->
+              <div
+                id="daumRoughmapContainer1712752503175"
+                class="root_daum_roughmap root_daum_roughmap_landing"
+              ></div>
+              <!-- 실행 스크립트 -->
+              <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                  timestamp: "1712752503175",
+                  key: "2iv5q",
+                  mapWidth: "900",
+                  mapHeight: "360",
+                }).render();
+              </script>
+            </div>
+          </div>
+          <div class="store-location-wrapper">
+            <div class="store-name">
+              <h3>롯데몰 동부산점</h3>
+            </div>
+            <div class="store-map">
+              <!-- 카카오맵 - 지도퍼가기 -->
+              <!-- 지도 노드 -->
+              <div
+                id="daumRoughmapContainer1712752646421"
+                class="root_daum_roughmap root_daum_roughmap_landing"
+              ></div>
+              <!-- 실행 스크립트 -->
+              <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                  timestamp: "1712752646421",
+                  key: "2iv5r",
+                  mapWidth: "900",
+                  mapHeight: "360",
+                }).render();
+              </script>
+            </div>
+          </div>
         </div>
       </section>
     </main>

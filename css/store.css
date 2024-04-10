@@ -1,0 +1,43 @@
+/* ########## store01 ########## */
+/* tab */
+.sub-menu-tab > ul{
+  width: 450px;
+}
+.sub-menu-tab > ul > li{
+  width: 33.33333%;
+}
+/* contents */
+.store-location-container{
+  width: 1240px;
+  margin: auto;
+}
+.store-location-box{
+  width: 950px;
+  margin: auto;
+}
+.store-location-wrapper{
+  border: 1px solid #000;
+  background-color: #fff;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.store-name h3{
+  font-weight: bold;
+  padding: 15px;
+}
+.store-name h3::after{
+  content: "▼";
+  float: right;
+  transition: 0.3s;
+}
+.store-map{
+  padding-top: 15px;
+  display: none;
+}
+.store-name.active ~ .store-map{
+  display: block;
+}
+.store-name.active h3::after{
+  transform: rotateX(180deg);
+}

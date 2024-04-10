@@ -14,4 +14,10 @@ $(function(){
     $(this).addClass("now")
     $(this).siblings("li").removeClass("now")
   })
+
+  // store.html
+  $(".store-name").click(function(){
+    $(this).next().stop().slideToggle(300);
+    $(this).toggleClass("active")
+  })
 })

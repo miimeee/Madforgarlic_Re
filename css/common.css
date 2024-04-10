@@ -139,6 +139,7 @@ ul.second-menu > li:hover {
 }
 .sub-menu-tab > ul {
   overflow: hidden;
+  /* 갯수에 따라 width조정 */
   width: 300px;
   position: absolute;
   top: -50%;
@@ -148,6 +149,7 @@ ul.second-menu > li:hover {
 .sub-menu-tab > ul > li {
   background-color: #333;
   float: left;
+  /* 갯수에 따라 width조정 */
   width: 50%;
   height: 100%;
   text-align: center;

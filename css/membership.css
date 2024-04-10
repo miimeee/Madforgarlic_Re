@@ -1,4 +1,12 @@
 /* ########## membership01 ########## */
+/* tab */
+.sub-menu-tab > ul{
+  width: 300px;
+}
+.sub-menu-tab > ul > li{
+  width: 50%;
+}
+/* contents */
 .membership-contents{
   width: 1240px;
   margin: auto;
