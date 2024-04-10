@@ -92,6 +92,9 @@ ul.second-menu > li > a {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 ul.second-menu > li:hover {
   background-color: #a2171b;

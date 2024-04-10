@@ -67,7 +67,7 @@ main {
   display: block;
   width: 100%;
   height: 50px;
-  margin: 10px 0;
+  margin: 15px 0;
   padding-left: 15px;
 }
 .input-container input[type="text"]::placeholder,
@@ -129,7 +129,7 @@ main {
 }
 /* ########### register.html ########## */
 .register-container{
-  top: 70%;
+  top: 55%;
 }
 .register-top {
   text-align: left;
