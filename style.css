@@ -2,11 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic+Coding&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 /* ########## Main ########## */
-main {
-  width: 100%;
-  /* header값만큼줌 */
-  margin-top: 100px;
-}
 .main-wrapper {
   width: 1240px;
   margin: auto;

@@ -1,0 +1,113 @@
+section:not(.contents-container02) {
+  width: 1240px;
+  margin: auto;
+}
+video {
+  margin-top: 30px;
+  width: 100%;
+}
+.contents-container01-txt {
+  margin: 80px 20px 30px;
+}
+.contents-container01-txt > h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contents-container01-txt > p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.contents-container01-img {
+  overflow: hidden;
+}
+.contents-container01-img > img {
+  width: 800px;
+  float: right;
+  margin: 40px 0 50px;
+}
+.contents-container02 > div {
+  background: url(/images/brand-02.jpg) center -130px no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+.contents-container02 > div > p {
+  color: #fff;
+  position: absolute;
+  top: 35px;
+  right: 100px;
+  text-align: right;
+}
+.contents-container03 > div > img {
+  margin-top: 50px;
+  width: 100%;
+}
+.contents-container04 {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.contents-container04 > div {
+  margin-top: 100px;
+  height: 400px;
+}
+.contents-container04-img {
+  float: left;
+  width: 60%;
+}
+.contents-container04-img > video {
+  width: 100%;
+  height: 100%;
+}
+.contents-container04-txt {
+  float: right;
+  width: 40%;
+  position: relative;
+}
+.contents-container04-txt > p {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+  left: 5px;
+  font-size: 17px;
+}
+.contents-container05{
+  height: 1300px;
+  position: relative;
+}
+.contents-container05-img{
+  width: 100%;
+  background: url(/images/brand06.jpg) center 0 no-repeat;
+  background-size: cover;
+  height: 900px;
+  position: absolute;
+  bottom: 0;
+}
+.contents-container05-txt{
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+}
+.contents-container05-txt > p{
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contents-container05-txt > p > span{
+  text-transform: uppercase;
+  color: #A2171B;
+  font-weight: 700;
+  font-size: 23px;
+}
+.contents-container06{
+  text-align: center;
+}
+.contents-container06 > img{
+  margin: 120px 0;
+  transform: scale(1.5);
+}

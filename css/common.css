@@ -58,6 +58,11 @@ footer {
   height: 100%;
   margin: auto;
 }
+main {
+  width: 100%;
+  /* header값만큼줌 */
+  margin-top: 100px;
+}
 /*  */
 .logo-area {
   float: left;
