@@ -84,6 +84,7 @@ main > section {
 }
 .promotion-cap > p {
   float: right;
+  margin-top: 10px;
   margin-right: 10px;
 }
 .more-btn {
