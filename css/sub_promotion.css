@@ -10,8 +10,6 @@ main > section {
   width: 25%;
 }
 /* ########## event.html ########## */
-.promotion-container {
-}
 .promotion-wrap {
   width: 100%;
   margin: 10px 0 20px;
@@ -19,14 +17,10 @@ main > section {
 .past-event-wrap {
   margin-top: 120px;
 }
-.promotion-head {
-}
 .promotion-head h2 {
   font-size: 25px;
   font-weight: 700;
   margin: 20px 0 20px 10px;
-}
-.promotion-box {
 }
 .promotion-contents {
   display: flex;
@@ -106,6 +100,12 @@ main > section {
   box-shadow: 0 1px 3px #7a2326;
   border-radius: 30px;
 }
+/* winner.html */
+.winner-contents {
+  justify-content: center;
+  margin: 80px 0;
+  color: #888;
+}
 /* ########## voucher.html ########## */
 .voucher01-cap {
   height: 130px;
@@ -116,7 +116,6 @@ main > section {
 .voucher02-head > h2 {
   margin-bottom: 0;
 }
-.voucher01-contents > a,
 .voucher02-contents > a {
   width: 25%;
   padding-top: 0;
@@ -130,4 +129,13 @@ main > section {
 .voucher01-cap > p > span,
 .voucher02-cap > p > span {
   display: block;
+}
+/* ########## challenge.html ########## */
+.ongoing-challenge-contents {
+  justify-content: center;
+  margin: 80px 0;
+  color: #888;
+}
+.past-challenge-wrap {
+  margin-top: 100px;
 }
