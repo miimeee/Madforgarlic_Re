@@ -10,13 +10,13 @@ main > section {
   width: 25%;
 }
 /* ########## event.html ########## */
-.event-container {
+.promotion-container {
 }
 .promotion-wrap {
   width: 100%;
   margin: 10px 0 20px;
 }
-.past-event-wrap{
+.past-event-wrap {
   margin-top: 120px;
 }
 .promotion-head {
@@ -45,7 +45,7 @@ main > section {
 .promotion-image {
   position: relative;
 }
-.promotion-image::after{
+.promotion-image::after {
   content: "자세히 보기";
   position: absolute;
   top: 50%;
@@ -56,25 +56,25 @@ main > section {
   text-align: center;
   line-height: 30px;
   font-weight: 600;
-  background-color: #A2171B;
+  background-color: #a2171b;
   color: #fff;
   opacity: 0;
   transition: 0.25s;
 }
-.promotion-image:hover::after{
+.promotion-image:hover::after {
   opacity: 1;
 }
 .promotion-image > img {
   width: 100%;
   height: 100%;
 }
-.promotion-image:hover > img{
+.promotion-image:hover > img {
   filter: blur(6px);
 }
 .promotion-cap {
   overflow: hidden;
   margin-top: 8px;
-  padding: 20px ;
+  padding: 20px;
   background-color: #eee;
 }
 .promotion-cap > h3 {
@@ -84,8 +84,8 @@ main > section {
 }
 .promotion-cap > p {
   float: right;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin: 10px 10px 0 10px;
+  font-size: 12px;
 }
 .more-btn {
   text-align: center;
@@ -101,8 +101,33 @@ main > section {
   cursor: pointer;
   transition: 0.3s;
 }
-.more-btn > button:hover{
-  background-color: #A2171B;
-  box-shadow: 0 1px 3px #7a2326;;
+.more-btn > button:hover {
+  background-color: #a2171b;
+  box-shadow: 0 1px 3px #7a2326;
   border-radius: 30px;
+}
+/* ########## voucher.html ########## */
+.voucher01-cap {
+  height: 130px;
+}
+.voucher02-wrap {
+  margin-top: 100px;
+}
+.voucher02-head > h2 {
+  margin-bottom: 0;
+}
+.voucher01-contents > a,
+.voucher02-contents > a {
+  width: 25%;
+  padding-top: 0;
+}
+.voucher02-contents > a > .voucher02-image {
+  height: 200px;
+}
+.voucher01-cap > p {
+  float: left;
+}
+.voucher01-cap > p > span,
+.voucher02-cap > p > span {
+  display: block;
 }
