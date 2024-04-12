@@ -36,14 +36,40 @@ main > section {
   width: 33.333%;
   padding: 10px;
 }
+.ongoing-event-contents > a > .promotion-image {
+  height: 214px;
+}
+.past-event-contents > a > .promotion-image {
+  height: 275px;
+}
 .promotion-image {
+  position: relative;
+}
+.promotion-image::after{
+  content: "자세히 보기";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+  background-color: #A2171B;
+  color: #fff;
+  opacity: 0;
+  transition: 0.25s;
+}
+.promotion-image:hover::after{
+  opacity: 1;
 }
 .promotion-image > img {
   width: 100%;
   height: 100%;
 }
-.past-event-contenst > a > div > img{
-  filter: grayscale(1);
+.promotion-image:hover > img{
+  filter: blur(6px);
 }
 .promotion-cap {
   overflow: hidden;
