@@ -12,6 +12,7 @@ $(function(){
   // aside tab-menu
   $(".sub-menu-tab ul li").click(function(){
     $(this).addClass("now")
+    console.log("킆릭")
     $(this).siblings("li").removeClass("now")
   })
 

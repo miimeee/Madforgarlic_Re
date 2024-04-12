@@ -1,0 +1,6 @@
+.sub-menu-tab > ul{
+  width: 400px;
+}
+.sub-menu-tab > ul > li{
+  width: 25%;
+}
