@@ -5,11 +5,12 @@ footer {
   background-color: #fff;
 }
 header {
-  height: 100px;
+  height: 120px;
   position: fixed;
-  top: 0;
+  top: 0px;
   left: 0;
   z-index: 990;
+  padding: 10px 0;
 }
 footer {
   height: 140px;
@@ -24,7 +25,7 @@ footer {
 main {
   width: 100%;
   /* header값만큼줌 */
-  margin-top: 100px;
+  margin-top: 120px;
 }
 /*  */
 .logo-area {

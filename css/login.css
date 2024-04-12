@@ -1,10 +1,9 @@
-/* ########## login.html ########## */
 header {
   width: 100%;
   height: 150px;
-  padding-top: 80px;
 }
 header > a {
+  padding-top: 80px;
   display: block;
   margin: auto;
   width: 270px;
@@ -21,9 +20,13 @@ main {
   margin: auto;
   text-align: center;
   position: absolute;
-  top: 55%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+/* ########## login.html ########## */
+.login-container{
+  top: 52%;
 }
 .login-top {
   position: relative;
@@ -67,7 +70,7 @@ main {
   display: block;
   width: 100%;
   height: 50px;
-  margin: 15px 0;
+  margin: 20px 0;
   padding-left: 15px;
 }
 .input-container input[type="text"]::placeholder,
@@ -111,6 +114,7 @@ main {
 }
 .sns-login-container h3 {
   text-transform: uppercase;
+  font-size: 20px;
   font-weight: 700;
   margin: 10px 0;
   text-align: left;
@@ -128,15 +132,13 @@ main {
   transform: scale(1.1);
 }
 /* ########### register.html ########## */
-.register-container{
-  top: 55%;
-}
 .register-top {
   text-align: left;
   padding-bottom: 10px;
   border-bottom: 1px solid #333;
 }
-.register-top h3{
+.register-top h3 {
+  font-size: 20px;
   font-weight: 700;
 }
 .register-top p {
