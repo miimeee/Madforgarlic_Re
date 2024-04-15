@@ -88,6 +88,8 @@
 .menu-info > h2.menu-name {
   float: left;
   width: 100%;
+  font-size: 21px;
+  font-weight: 600;
 }
 .menu-info > p.menu-price {
   float: right;
@@ -96,6 +98,8 @@
 .menu-info > p.menu-des {
   float: left;
   width: 100%;
+  word-break: keep-all;
+  line-height: 1.3rem;
 }
 .menu-info > p.menu-des > em{
   display: block;
@@ -117,6 +121,12 @@
 /* new page */
 .new-menu {
   width: 70%;
+}
+.new-menu > a > .menu-info > h2.menu-name{
+  font-size: 17px;
+}
+.new-menu > a > .menu-info > p.menu-des{
+  font-size: 13px;
 }
 .new-only {
   width: 30%;
@@ -142,6 +152,11 @@
   bottom: 0;
 }
 /* pizza */
+.pizza-common-option{
+  display: block;
+  padding: 0 0 10px 490px;
+  font-weight: 600;
+}
 .pizza-list > a:last-child > .menu-img {
   overflow: hidden;
 }
