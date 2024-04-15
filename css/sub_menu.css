@@ -141,3 +141,10 @@
 .new-only > a:hover .menu-info {
   bottom: 0;
 }
+/* pizza */
+.pizza-list > a:last-child > .menu-img {
+  overflow: hidden;
+}
+.pizza-list > a:last-child > .menu-img > img{
+  transform: scale(1.2) translateY(20px);
+}
