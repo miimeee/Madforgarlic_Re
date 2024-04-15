@@ -12,53 +12,73 @@
   border-left: 1px solid #fff;
 }
 .menu-contanier {
-  border: 1px solid #000;
   width: 1240px;
   margin: auto;
   margin-top: 50px;
 }
-.menu-wrap {
-}
-.menu-head {
-}
 .menu-head > h2 {
-  border: 1px solid #000;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 700;
-  margin: 20px 0;
+  margin: 100px 0 40px;
 }
-
 .menu-box {
   display: flex;
 }
 .menu-list {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .menu-list > a {
-  border: 1px solid #000;
   display: block;
   width: 50%;
   position: relative;
   overflow: hidden;
 }
 .menu-img {
-  padding: 5px;
+  margin: 5px;
+  position: relative;
 }
 .menu-img > img {
   width: 100%;
   margin-bottom: 60px;
 }
+.menu-img::before,
+.new-only > a > .menu-img::before {
+  content: "자세히 보기";
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a2171b;
+  color: #fff;
+  padding: 10px 30px;
+  z-index: 10;
+  opacity: 0;
+  transition: 0.5s;
+}
+.menu-img::after,
+.new-only > a > .menu-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(162, 23, 28, 0.2);
+  opacity: 0;
+  transition: 0.5s;
+}
 .menu-info {
-  border: 1px solid #000;
-  background-color: aquamarine;
+  background-color: #333;
+  color: #fff;
   margin: 0 5px;
-  padding: 5px 10px;
+  padding: 15px 15px;
   overflow: hidden;
-  height: 150px;
+  height: 170px;
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -70,40 +90,47 @@
 }
 .menu-info > p.menu-price {
   float: right;
-  margin: 10px 0 15px;
+  margin: 10px 0 20px;
 }
 .menu-info > p.menu-des {
   float: left;
   width: 100%;
 }
-.menu-list > a:hover .menu-info {
+.menu-list > a:hover > .menu-img::before,
+.menu-list > a:hover > .menu-img::after,
+.new-only > a:hover > .menu-img::before,
+.new-only > a:hover > .menu-img::after {
+  opacity: 1;
+}
+.menu-list > a:hover .menu-info,
+.new-only > a:hover .menu-info {
+  background-color: rgba(51, 51, 51, 0.8);
   bottom: 0;
 }
-
+/* new page */
+.new-menu {
+  width: 70%;
+}
 .new-only {
   width: 30%;
 }
 .new-only > a {
-  border: 1px solid red;
   display: block;
   width: 100%;
-  padding: 5px;
   position: relative;
   overflow: hidden;
   padding-top: 120px;
 }
 .new-only > a > .menu-img {
-  border: 1px solid #000;
   height: 480px;
   overflow: hidden;
 }
 .new-only > a > .menu-img > img {
   transform: scale(1.8) translateY(45px);
 }
-.new-only > a > .menu-info{}
-.new-only > a > .menu-info > .menu-name{}
-.new-only > a > .menu-info > .menu-price{}
-.new-only > a > .menu-info > .menu-des{}
-.new-only > a:hover .menu-info{
+.new-only > a > .menu-info {
+  margin: 5px;
+}
+.new-only > a:hover .menu-info {
   bottom: 0;
 }
