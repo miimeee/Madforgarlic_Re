@@ -173,6 +173,10 @@ ul.second-menu > li:hover {
   height: 100%;
   text-align: center;
   line-height: 70px;
+  border-right: 1px solid #fff;
+}
+.sub-menu-tab > ul > li:first-child{
+  border-left: 1px solid #fff;
 }
 .sub-menu-tab > ul > li.now {
   background-color: #a2171b;

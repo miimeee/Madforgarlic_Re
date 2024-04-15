@@ -1,0 +1,109 @@
+/* ########## Sub_menu common ########## */
+.sub-menu-tab > ul {
+  width: 600px;
+  height: 140px;
+}
+.sub-menu-tab > ul > li {
+  width: 20%;
+  height: 50%;
+  border-bottom: 1px solid #fff;
+}
+.sub-menu-tab > ul > li:nth-of-type(6) {
+  border-left: 1px solid #fff;
+}
+.menu-contanier {
+  border: 1px solid #000;
+  width: 1240px;
+  margin: auto;
+  margin-top: 50px;
+}
+.menu-wrap {
+}
+.menu-head {
+}
+.menu-head > h2 {
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.menu-box {
+  display: flex;
+}
+.menu-list {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.menu-list > a {
+  border: 1px solid #000;
+  display: block;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.menu-img {
+  padding: 5px;
+}
+.menu-img > img {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.menu-info {
+  border: 1px solid #000;
+  background-color: aquamarine;
+  margin: 0 5px;
+  padding: 5px 10px;
+  overflow: hidden;
+  height: 150px;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  transition: 0.3s;
+}
+.menu-info > h2.menu-name {
+  float: left;
+  width: 100%;
+}
+.menu-info > p.menu-price {
+  float: right;
+  margin: 10px 0 15px;
+}
+.menu-info > p.menu-des {
+  float: left;
+  width: 100%;
+}
+.menu-list > a:hover .menu-info {
+  bottom: 0;
+}
+
+.new-only {
+  width: 30%;
+}
+.new-only > a {
+  border: 1px solid red;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 120px;
+}
+.new-only > a > .menu-img {
+  border: 1px solid #000;
+  height: 480px;
+  overflow: hidden;
+}
+.new-only > a > .menu-img > img {
+  transform: scale(1.8) translateY(45px);
+}
+.new-only > a > .menu-info{}
+.new-only > a > .menu-info > .menu-name{}
+.new-only > a > .menu-info > .menu-price{}
+.new-only > a > .menu-info > .menu-des{}
+.new-only > a:hover .menu-info{
+  bottom: 0;
+}
