@@ -43,12 +43,9 @@
     transform: rotate(-45deg);
   }
   /* Header */
-  header {
-    height: auto;
-  }
   .header-wrapper {
+    height: auto;
     width: 100%;
-    padding: 0 5px;
   }
   .header-wrapper.active {
     height: 100vh;
@@ -137,5 +134,24 @@
   }
   .header-wrapper.active > .trigger {
     top: 50px;
+  }
+  /* footer */
+  .footer-wrapper {
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .left{
+    float: none;
+    padding: 0;
+  }
+  .official-site{
+    margin-left: 10px;
+  }
+  .official-site > a{
+    margin-right: 10px;
+  }
+  .right{
+    float: none;
   }
 }

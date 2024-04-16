@@ -1,30 +1,34 @@
 /* ########## Header 영역 ##########*/
+body{
+  position: relative;
+}
 header,
 footer {
   width: 100%;
   background-color: #fff;
 }
 header {
-  height: 120px;
   position: fixed;
-  top: 0px;
+  top: 0;
   left: 0;
   z-index: 990;
   padding: 10px 0;
 }
 footer {
-  height: 140px;
-  margin-top: 40px;
+  padding: 10px 0;
 }
 .header-wrapper,
 .footer-wrapper {
   width: 1240px;
-  height: 100%;
   margin: auto;
 }
-main {
-  width: 100%;
-  /* header값만큼줌 */
+.header-wrapper {
+  height: 120px;
+}
+.footer-wrapper {
+  height: 140px;
+}
+main{
   margin-top: 120px;
 }
 /*  */
@@ -151,7 +155,7 @@ ul.second-menu > li:hover {
   transform: translate(-50%);
 }
 .sub-menu-tab > ul::after,
-.sub-menu-tab > ul::before{
+.sub-menu-tab > ul::before {
   content: "";
   width: 400px;
   height: 1px;
@@ -159,10 +163,10 @@ ul.second-menu > li:hover {
   position: absolute;
   top: 50%;
 }
-.sub-menu-tab > ul::after{
+.sub-menu-tab > ul::after {
   left: -400px;
 }
-.sub-menu-tab > ul::before{
+.sub-menu-tab > ul::before {
   right: -400px;
 }
 .sub-menu-tab > ul > li {
@@ -175,7 +179,7 @@ ul.second-menu > li:hover {
   line-height: 70px;
   border-right: 1px solid #fff;
 }
-.sub-menu-tab > ul > li:first-child{
+.sub-menu-tab > ul > li:first-child {
   border-left: 1px solid #fff;
 }
 .sub-menu-tab > ul > li.now {
@@ -188,7 +192,7 @@ ul.second-menu > li:hover {
   height: 100%;
   text-transform: uppercase;
 }
-.sub-menu-tab > ul > li > a > span{
+.sub-menu-tab > ul > li > a > span {
   display: block;
   width: 100%;
   height: 50%;

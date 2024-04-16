@@ -1,4 +1,87 @@
 /* index.html부분 responsive */
 @media (max-width: 390px) {
-
+  .main-wrapper {
+    width: 100%;
+  }
+  .slick-list {
+    height: auto;
+  }
+  .brand-box > .img-area {
+    background-position: center 0;
+  }
+  .store-box > .img-area {
+    background-position: center 0;
+  }
+  .img-area > div > span {
+    font-size: 13px;
+  }
+  .img-area > div > a {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+  }
+  .text-area > div > p {
+    font-size: 12px;
+    line-height: 1.1rem;
+  }
+  .slogan-container {
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .slogan-container > p {
+    font-size: 15px;
+  }
+  .slogan-container > p::before {
+    font-size: 70px;
+    left: -30px;
+    top: 5px;
+  }
+  .membership-box > .img-area {
+    background-position: -180px center;
+  }
+  .contents-icon {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .contents-icon > div {
+    width: 100%;
+    height: auto;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .contents-icon > div > img {
+    width: 40px;
+    height: 40px;
+  }
+  .contents-icon > div > p {
+    opacity: 1;
+    margin: 0;
+    margin-left: 10px;
+  }
+  .contents-text > p {
+    font-size: 2.2rem;
+    color: #a2171b;
+  }
+  .reserve-inner,
+  .urban-inner {
+    display: block;
+  }
+  .reserve-inner > p,
+  .urban-inner > p {
+    font-size: 0.7rem;
+    padding: 0;
+  }
+  .reserve-inner > img,
+  .urban-inner > img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-top: 10px;
+  }
 }
