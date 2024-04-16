@@ -1,5 +1,5 @@
 /* index.html부분 responsive */
-@media (max-width: 390px) {
+@media (max-width: 400px) {
   .main-wrapper {
     width: 100%;
   }

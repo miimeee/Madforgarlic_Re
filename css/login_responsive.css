@@ -1,0 +1,25 @@
+@media (max-width: 400px) {
+  header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  header > a {
+    padding-top: 50px;
+  }
+  /* login.html */
+  .login-container,
+  .register-container {
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  .sns-login-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sns-login-inner a img {
+    margin: 0;
+  }
+}
