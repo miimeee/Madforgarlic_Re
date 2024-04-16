@@ -25,12 +25,9 @@ $(function () {
   // responsive
   // Trigger
   $(".trigger").click(function () {
+    console.log("클릭")
     $(this).toggleClass("active");
     // gnb
     $(".header-wrapper").toggleClass("active");
-  });
-  $("section, .menu a").click(function () {
-    $(".trigger").removeClass("active");
-    $(".header-wrapper").removeClass("active");
   });
 });
