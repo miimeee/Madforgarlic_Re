@@ -43,9 +43,6 @@
     transform: rotate(-45deg);
   }
   /* Header */
-  header{
-    /* position: static; */
-  }
   .header-wrapper {
     height: auto;
     width: 100%;

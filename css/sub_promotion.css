@@ -1,5 +1,5 @@
 /* ########## Sub_promotion common ########## */
-main > section {
+.promotion-container {
   width: 1240px;
   margin: auto;
 }

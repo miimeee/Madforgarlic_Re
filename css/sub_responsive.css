@@ -1,0 +1,122 @@
+@media (max-width: 400px) {
+  /* sub common */
+  .sub-menu-tab > ul {
+    width: 100%;
+  }
+  /* sub_brand */
+  .brand-wrpper > section{
+    width: 100%;
+  }
+  .contents-container01-img > img {
+    width: 85%;
+  }
+  .contents-container01-txt > h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 30px 0;
+  }
+  .contents-container01-txt > p {
+    font-size: 12px;
+    word-break: keep-all;
+  }
+  .contents-container02 {
+    margin-top: 100px;
+  }
+  .contents-container02 > div > p {
+    font-size: 12px;
+    line-height: 1.2rem;
+  }
+  .contents-container04 {
+    height: auto;
+  }
+  .contents-container04 > div {
+    margin-top: 80px;
+    height: 200px;
+  }
+  .contents-container04-txt > p {
+    font-size: 10px;
+    line-height: 1.1rem;
+    word-break: keep-all;
+    bottom: 0;
+  }
+  .contents-container05 {
+    height: 900px;
+  }
+  .contents-container05-img {
+    height: 500px;
+  }
+  .contents-container05-txt {
+    top: 100px;
+  }
+  .contents-container05-txt > p {
+    font-size: 13px;
+    line-height: 1.5rem;
+    word-break: keep-all;
+  }
+  .contents-container05-txt > p > span {
+    font-size: 17px;
+  }
+  /* sub_menu */
+  .menu-contanier{
+    width: 100%;
+  }
+  .menu-box {
+    display: block;
+  }
+  .menu-list {
+    display: block;
+    width: 100%;
+  }
+  .menu-list > a {
+    width: 100%;
+  }
+  .new-only {
+    width: 100%;
+  }
+  .new-only > a {
+    padding: 0;
+  }
+  .pizza-common-option{
+    padding: 0 0 20px 40px;
+    font-size: 10px;
+    text-align: right;
+    word-break: keep-all;
+  }
+  /* sub_store */
+  .store-location-container{
+    width: 100%;
+  }
+  .store-location-box {
+    width: 100%;
+  }
+  .store-map > div {
+    width: 100% !important;
+  }
+  /* sub_membership */
+  .membership-contents{
+    width: 100%;
+  }
+  .membership-contents-list {
+    width: 100%;
+  }
+  .membership-contents-list > li {
+    float: none;
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+  }
+  .membership-contents-list > li:nth-of-type(3) > img {
+    margin: 100px 0;
+  }
+  /* sub_promotion */
+  .promotion-container{
+    width: 100%;
+  }
+  .promotion-contents {
+    display: block;
+  }
+  .winner-contents,
+  .ongoing-challenge-contents {
+    text-align: center;
+  }
+}
