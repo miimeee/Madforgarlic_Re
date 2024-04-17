@@ -1,4 +1,4 @@
-.brand-wrpper > section{
+.brand-wrpper > section {
   width: 1240px;
   margin: auto;
 }
@@ -8,6 +8,8 @@ video {
 }
 .contents-container01-txt {
   margin: 80px 20px 30px;
+  opacity: 0;
+  /* animation: up 1s 0s linear both; */
 }
 .contents-container01-txt > h3 {
   font-size: 30px;
@@ -24,6 +26,8 @@ video {
   width: 800px;
   float: right;
   margin: 40px 0 50px;
+  opacity: 0;
+  /* animation: up 1s 0.8s linear both; */
 }
 .contents-container02 > div {
   background: url(/images/brand-02.jpg) center -130px no-repeat;
@@ -39,6 +43,8 @@ video {
   right: 100px;
   text-align: right;
   font-size: 18px;
+  opacity: 0;
+  /* animation: up 0.7s 0s linear both; */
 }
 .contents-container03 > div > img {
   margin-top: 50px;
@@ -75,11 +81,11 @@ video {
   word-break: keep-all;
   text-align: center;
 }
-.contents-container05{
+.contents-container05 {
   height: 1500px;
   position: relative;
 }
-.contents-container05-img{
+.contents-container05-img {
   width: 100%;
   background: url(/images/brand06.jpg) center 0 no-repeat;
   background-size: cover;
@@ -87,7 +93,7 @@ video {
   position: absolute;
   bottom: 0;
 }
-.contents-container05-txt{
+.contents-container05-txt {
   position: absolute;
   top: 220px;
   left: 50%;
@@ -95,22 +101,43 @@ video {
   width: 80%;
   text-align: center;
   padding: 10px;
+  opacity: 0;
+  /* animation: fadeIn 1s 0s linear both; */
 }
-.contents-container05-txt > p{
+.contents-container05-txt > p {
   margin: 20px 0;
   font-size: 23px;
   font-weight: 500;
 }
-.contents-container05-txt > p > span{
+.contents-container05-txt > p > span {
   text-transform: uppercase;
-  color: #A2171B;
+  color: #a2171b;
   font-weight: 700;
   font-size: 30px;
 }
-.contents-container06{
+.contents-container06 {
   text-align: center;
 }
-.contents-container06 > img{
+.contents-container06 > img {
   margin: 100px 0 80px;
   transform: scale(1.5);
+}
+/* animation */
+@keyframes up {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
