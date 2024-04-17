@@ -1,5 +1,5 @@
 /* ########## Header 영역 ##########*/
-body{
+body {
   position: relative;
 }
 header,
@@ -28,7 +28,7 @@ footer {
 .footer-wrapper {
   height: 140px;
 }
-main{
+main {
   margin-top: 120px;
 }
 /*  */
@@ -117,6 +117,85 @@ ul.second-menu > li:hover {
 .personal-area a:nth-last-child(2) {
   margin: 0 10px;
 }
+/* ########## Footer 영역 ########## */
+.address {
+  padding: 10px 20px;
+}
+.address p:first-child {
+  font-size: 13px;
+}
+.address p:last-child {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.related {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.left {
+  float: left;
+  padding-left: 20px;
+}
+a.facebook {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -38px -2px no-repeat;
+}
+a.instagram {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -73px -2px no-repeat;
+}
+a.youtube {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(/images/icon-sns.png) -110px -2px no-repeat;
+  margin-left: 8px;
+}
+a.facebook:hover {
+  background-position: -38px -32px;
+}
+a.instagram:hover {
+  background-position: -73px -32px;
+}
+a.youtube:hover {
+  background-position: -110px -32px;
+}
+.official-site a {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.official-site a:hover {
+  color: #bbb;
+}
+.right {
+  float: right;
+  height: 100%;
+  padding-top: 15px;
+}
+.right a:first-child {
+  display: inline-block;
+  width: 135px;
+  height: 35px;
+  background: url(/images/icon-app.png) no-repeat;
+}
+.right a:last-child {
+  display: inline-block;
+  width: 135px;
+  height: 35px;
+  background: url(/images/icon-app.png) -130px 0 no-repeat;
+}
 /* ########## aside tab-menu ########## */
 .sub-menu {
   width: 1240px;
@@ -197,83 +276,4 @@ ul.second-menu > li:hover {
   width: 100%;
   height: 50%;
   margin-top: -12px;
-}
-/* ########## Footer 영역 ########## */
-.address {
-  padding: 10px 20px;
-}
-.address p:first-child {
-  font-size: 13px;
-}
-.address p:last-child {
-  font-size: 11px;
-  margin-top: 5px;
-}
-.related {
-  overflow: hidden;
-  padding: 10px 0;
-}
-.left {
-  float: left;
-  padding-left: 20px;
-}
-a.facebook {
-  border: 1px solid transparent;
-  border-radius: 50%;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background: url(/images/icon-sns.png) -38px -2px no-repeat;
-}
-a.instagram {
-  border: 1px solid transparent;
-  border-radius: 50%;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background: url(/images/icon-sns.png) -73px -2px no-repeat;
-}
-a.youtube {
-  border: 1px solid transparent;
-  border-radius: 50%;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background: url(/images/icon-sns.png) -110px -2px no-repeat;
-  margin-left: 8px;
-}
-a.facebook:hover {
-  background-position: -38px -32px;
-}
-a.instagram:hover {
-  background-position: -73px -32px;
-}
-a.youtube:hover {
-  background-position: -110px -32px;
-}
-.official-site a {
-  text-transform: uppercase;
-  font-size: 11px;
-  font-weight: 500;
-  margin-right: 20px;
-}
-.official-site a:hover {
-  color: #bbb;
-}
-.right {
-  float: right;
-  height: 100%;
-  padding-top: 15px;
-}
-.right a:first-child {
-  display: inline-block;
-  width: 135px;
-  height: 35px;
-  background: url(/images/icon-app.png) no-repeat;
-}
-.right a:last-child {
-  display: inline-block;
-  width: 135px;
-  height: 35px;
-  background: url(/images/icon-app.png) -130px 0 no-repeat;
 }
