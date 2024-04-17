@@ -50,12 +50,18 @@
   height: 670px;
 }
 .brand-box,
-.store-box {
+.store-box,
+.membership-box {
   display: flex;
+  overflow: hidden;
+}
+.brand-box,
+.store-box {
   height: 50%;
 }
 .brand-box > div,
-.store-box > div {
+.store-box > div,
+.membership-box > div {
   width: 50%;
 }
 .brand-box > .img-area {
@@ -160,9 +166,6 @@
   display: flex;
   height: 100%;
 }
-.membership-box > div {
-  width: 50%;
-}
 .membership-box > .img-area {
   background: url(/images/membership01.png) -100px 0 no-repeat;
   background-size: cover;
@@ -171,6 +174,7 @@
   width: 300px;
   height: 300px;
   top: 55%;
+  cursor: pointer;
 }
 .contents-icon > div {
   width: 90px;
@@ -201,7 +205,7 @@
 }
 .contents-text > p {
   width: 100%;
-  font-size: 40px;
+  font-size: 43px;
   font-weight: 700;
   font-style: italic;
   color: #ccc;

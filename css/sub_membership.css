@@ -26,6 +26,7 @@
   height: 720px;
   background-color: #000000;
   overflow: hidden;
+  cursor: pointer;
 }
 .membership-contents-list > li > img {
   width: 100%;

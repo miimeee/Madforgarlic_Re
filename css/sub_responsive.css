@@ -88,7 +88,7 @@
     padding: 0;
   }
   .menu-info > p.menu-price {
-    margin: 10px 0 15px;
+    margin: 10px 0 20px;
   }
   .menu-info > p.menu-des {
     font-size: 13px;
@@ -96,8 +96,8 @@
   .menu-info > p.menu-des > em {
     margin:0;
     display: block;
-    padding-top: 20px;
-    font-size: 11px;
+    padding-top: 10px;
+    font-size: 10px;
   }
   .pizza-common-option {
     padding: 0 10px 20px 35px;

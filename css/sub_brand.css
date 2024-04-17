@@ -10,12 +10,12 @@ video {
   margin: 80px 20px 30px;
 }
 .contents-container01-txt > h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
 }
 .contents-container01-txt > p {
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 .contents-container01-img {
   overflow: hidden;
@@ -35,9 +35,10 @@ video {
 .contents-container02 > div > p {
   color: #fff;
   position: absolute;
-  top: 35px;
+  top: 30px;
   right: 100px;
   text-align: right;
+  font-size: 18px;
 }
 .contents-container03 > div > img {
   margin-top: 50px;
@@ -45,12 +46,12 @@ video {
 }
 .contents-container04 {
   width: 100%;
-  height: 500px;
+  height: 550px;
   overflow: hidden;
 }
 .contents-container04 > div {
-  margin-top: 100px;
-  height: 400px;
+  margin-top: 120px;
+  height: 420px;
 }
 .contents-container04-img {
   float: left;
@@ -67,13 +68,15 @@ video {
 }
 .contents-container04-txt > p {
   position: absolute;
+  bottom: 0px;
+  left: -10px;
   width: 100%;
-  bottom: 30px;
-  left: 5px;
-  font-size: 17px;
+  font-size: 18px;
+  word-break: keep-all;
+  text-align: center;
 }
 .contents-container05{
-  height: 1300px;
+  height: 1500px;
   position: relative;
 }
 .contents-container05-img{
@@ -86,7 +89,7 @@ video {
 }
 .contents-container05-txt{
   position: absolute;
-  top: 120px;
+  top: 220px;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
@@ -95,14 +98,14 @@ video {
 }
 .contents-container05-txt > p{
   margin: 20px 0;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
 }
 .contents-container05-txt > p > span{
   text-transform: uppercase;
   color: #A2171B;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 30px;
 }
 .contents-container06{
   text-align: center;
