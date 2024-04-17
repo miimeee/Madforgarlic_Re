@@ -7,8 +7,12 @@
   .brand-wrpper > section {
     width: 100%;
   }
+  .contents-container01-txt {
+    opacity: 1;
+  }
   .contents-container01-img > img {
     width: 85%;
+    opacity: 1;
   }
   .contents-container01-txt > h3 {
     font-size: 18px;
@@ -28,6 +32,7 @@
     line-height: 1.2rem;
     text-align: left;
     margin-left: 10px;
+    opacity: 1;
   }
   .contents-container04 {
     height: auto;
@@ -52,6 +57,7 @@
   }
   .contents-container05-txt {
     top: 100px;
+    opacity: 1;
   }
   .contents-container05-txt > p {
     font-size: 12px;
@@ -94,7 +100,7 @@
     font-size: 13px;
   }
   .menu-info > p.menu-des > em {
-    margin:0;
+    margin: 0;
     display: block;
     padding-top: 10px;
     font-size: 10px;
