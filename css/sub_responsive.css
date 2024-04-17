@@ -4,16 +4,17 @@
     width: 100%;
   }
   /* sub_brand */
-  .brand-wrpper > section{
+  .brand-wrpper > section {
     width: 100%;
   }
   .contents-container01-img > img {
     width: 85%;
   }
   .contents-container01-txt > h3 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
-    margin: 30px 0;
+    margin: 30px 0 15px;
+    word-break: keep-all;
   }
   .contents-container01-txt > p {
     font-size: 12px;
@@ -25,19 +26,23 @@
   .contents-container02 > div > p {
     font-size: 12px;
     line-height: 1.2rem;
+    text-align: left;
+    margin-left: 10px;
   }
   .contents-container04 {
     height: auto;
   }
   .contents-container04 > div {
-    margin-top: 80px;
+    margin-top: 60px;
     height: 200px;
   }
   .contents-container04-txt > p {
-    font-size: 10px;
+    font-size: 9px;
     line-height: 1.1rem;
+    text-align: center;
     word-break: keep-all;
     bottom: 0;
+    left: 0;
   }
   .contents-container05 {
     height: 900px;
@@ -49,15 +54,21 @@
     top: 100px;
   }
   .contents-container05-txt > p {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.5rem;
     word-break: keep-all;
   }
   .contents-container05-txt > p > span {
     font-size: 17px;
   }
+  .contents-container06 > img {
+    margin: 80px 0;
+  }
+  .contents-container06 > img {
+    transform: scale(1.2);
+  }
   /* sub_menu */
-  .menu-contanier{
+  .menu-contanier {
     width: 100%;
   }
   .menu-box {
@@ -76,14 +87,26 @@
   .new-only > a {
     padding: 0;
   }
-  .pizza-common-option{
-    padding: 0 0 20px 40px;
+  .menu-info > p.menu-price {
+    margin: 10px 0 15px;
+  }
+  .menu-info > p.menu-des {
+    font-size: 13px;
+  }
+  .menu-info > p.menu-des > em {
+    margin:0;
+    display: block;
+    padding-top: 20px;
+    font-size: 11px;
+  }
+  .pizza-common-option {
+    padding: 0 10px 20px 35px;
     font-size: 10px;
     text-align: right;
     word-break: keep-all;
   }
   /* sub_store */
-  .store-location-container{
+  .store-location-container {
     width: 100%;
   }
   .store-location-box {
@@ -93,7 +116,7 @@
     width: 100% !important;
   }
   /* sub_membership */
-  .membership-contents{
+  .membership-contents {
     width: 100%;
   }
   .membership-contents-list {
@@ -109,7 +132,7 @@
     margin: 100px 0;
   }
   /* sub_promotion */
-  .promotion-container{
+  .promotion-container {
     width: 100%;
   }
   .promotion-contents {

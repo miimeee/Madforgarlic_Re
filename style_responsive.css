@@ -6,6 +6,9 @@
   .slick-list {
     height: auto;
   }
+  .slick-dots {
+    bottom: 10px;
+  }
   .brand-box > .img-area {
     background-position: center 0;
   }
@@ -34,7 +37,7 @@
   }
   .slogan-container > p::before {
     font-size: 70px;
-    left: -30px;
+    left: -20px;
     top: 5px;
   }
   .membership-box > .img-area {
@@ -64,9 +67,14 @@
     margin: 0;
     margin-left: 10px;
   }
+  .contents-icon > div:nth-of-type(3) > img,
+  .contents-icon > div:nth-of-type(4) > img{
+    margin-left: 8px;
+  }
   .contents-text > p {
     font-size: 2.2rem;
     color: #a2171b;
+    animation: blink 3.5s linear infinite;
   }
   .reserve-inner,
   .urban-inner {
@@ -83,5 +91,17 @@
     height: 40px;
     margin: 0;
     margin-top: 10px;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
